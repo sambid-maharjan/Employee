@@ -6,7 +6,6 @@
   font-family: 'Poppins',sans-serif;
 }
 body{
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +23,7 @@ body{
 .container .title{
   font-size: 25px;
   font-weight: 500;
-  position: relative;
+  position:relative; 
 }
 .container .title::before{
   content: "";
